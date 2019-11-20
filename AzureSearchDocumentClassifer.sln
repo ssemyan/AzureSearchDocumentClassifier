@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSearch", "WebSearch\WebSearch.csproj", "{5B71ED9F-7C1B-4A44-8AFE-40274B7A89E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSearchDocumentClassiferLib", "AzureSearchDocumentClassiferLib\AzureSearchDocumentClassiferLib.csproj", "{FD5C9309-8D58-48C9-A06A-D4ADA06AE602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfToText", "PdfToText\PdfToText.csproj", "{A79878C1-1E28-4ED6-92B3-291D20B24D87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{FD5C9309-8D58-48C9-A06A-D4ADA06AE602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD5C9309-8D58-48C9-A06A-D4ADA06AE602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD5C9309-8D58-48C9-A06A-D4ADA06AE602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79878C1-1E28-4ED6-92B3-291D20B24D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79878C1-1E28-4ED6-92B3-291D20B24D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79878C1-1E28-4ED6-92B3-291D20B24D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79878C1-1E28-4ED6-92B3-291D20B24D87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0104657E-AAE5-4B74-9B21-AFDD543DD579}
 	EndGlobalSection
 EndGlobal
